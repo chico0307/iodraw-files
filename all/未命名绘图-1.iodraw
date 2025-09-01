@@ -1,0 +1,138 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="24.7.17">
+  <diagram name="第 1 页" id="RHqyNZsNSSLBjiJR9j9n">
+    <mxGraphModel dx="1055" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L5ySReYQH7kwxEJvme5G-149" value="输入对抗图像 inputs" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="272" y="470" width="205" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-150" value="生成 Measurement（ordered_dithering）&#xa;用于作为恢复目标" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="246" y="569" width="257" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-151" value="生成解释图与掩码&#xa;generate_mask_and_interpretations" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="246" y="720" width="258" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-152" value="获取动态/静态 mask" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="272" y="877" width="206" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-153" value="前向扩散&#xa;get_noised_image / diffuse_t_steps" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="245" y="975" width="259" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-154" value="反向扩散去噪过程（DDIM/DDPM）&#xa;p_sample / denoising_step" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="246" y="1092" width="258" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-155" value="PosteriorSampling.conditioning&#xa;基于 measurement 引导&#xa;用 MSE/SSIM/L2 计算损失，对 x_t 引导" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="151" y="1225" width="252" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-156" value="是否应用掩码？" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="197" y="1377" width="161" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-157" value="apply_mask：结合解释图 + mask&#xa;控制区域选择" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1610" width="253" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-158" value="直接进入下一步" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="323" y="1619" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-159" value="替换不重要区域为前向加噪图" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="283" y="1727" width="252" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-160" value="最终净化图像输出&#xa;purify_cifar / purify_imagenet" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="282" y="1843" width="253" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-161" value="反归一化&#xa;diff_to_raw → clamp 限制到 [0,1]" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="287" y="1959" width="243" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-162" value="返回净化后的图像 outputs" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="285" y="2075" width="247" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-163" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="L5ySReYQH7kwxEJvme5G-149" target="L5ySReYQH7kwxEJvme5G-150">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-164" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="L5ySReYQH7kwxEJvme5G-150" target="L5ySReYQH7kwxEJvme5G-151">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-165" value="解释图 / RCAM 掩码" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="L5ySReYQH7kwxEJvme5G-151" target="L5ySReYQH7kwxEJvme5G-152">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-166" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="L5ySReYQH7kwxEJvme5G-152" target="L5ySReYQH7kwxEJvme5G-153">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-167" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="L5ySReYQH7kwxEJvme5G-153" target="L5ySReYQH7kwxEJvme5G-154">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-168" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.26;exitY=0.99;entryX=0.5;entryY=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="L5ySReYQH7kwxEJvme5G-154" target="L5ySReYQH7kwxEJvme5G-155">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="278" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-169" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="L5ySReYQH7kwxEJvme5G-155" target="L5ySReYQH7kwxEJvme5G-156">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-170" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.94;entryX=0.5;entryY=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="L5ySReYQH7kwxEJvme5G-156" target="L5ySReYQH7kwxEJvme5G-157">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="146" y="1574" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-171" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.94;entryX=0.5;entryY=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="L5ySReYQH7kwxEJvme5G-156" target="L5ySReYQH7kwxEJvme5G-158">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="409" y="1574" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-172" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0;entryY=0.07;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="L5ySReYQH7kwxEJvme5G-157" target="L5ySReYQH7kwxEJvme5G-159">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="146" y="1702" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-173" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="L5ySReYQH7kwxEJvme5G-158" target="L5ySReYQH7kwxEJvme5G-159">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-174" value="反复迭代 max_iter 次" style="curved=1;startArrow=none;endArrow=block;exitX=0.86;exitY=-0.01;entryX=0.96;entryY=0.99;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="L5ySReYQH7kwxEJvme5G-159" target="L5ySReYQH7kwxEJvme5G-154">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="566" y="1702" />
+              <mxPoint x="566" y="1200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-175" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="L5ySReYQH7kwxEJvme5G-159" target="L5ySReYQH7kwxEJvme5G-160">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-176" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="L5ySReYQH7kwxEJvme5G-160" target="L5ySReYQH7kwxEJvme5G-161">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L5ySReYQH7kwxEJvme5G-177" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="L5ySReYQH7kwxEJvme5G-161" target="L5ySReYQH7kwxEJvme5G-162">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
