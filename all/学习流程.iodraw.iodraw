@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="qRZLDpPRPI65LF1ycy2Y">
-    <mxGraphModel dx="786" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1613" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,13 +23,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ky2ESYYpgZwdwtVAGNtp-11" value="&lt;span style=&quot;color: rgb(51, 153, 255);&quot;&gt;进行可微分的半色调，作为“净化”模块，把小的扰动先抹掉&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="370" y="390" width="160" height="60" as="geometry" />
+          <mxGeometry x="-470" y="360" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ky2ESYYpgZwdwtVAGNtp-12" value="普通的二值化操作不可微，不能用于训练。" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="620" y="380" width="180" height="80" as="geometry" />
+          <mxGeometry x="-220" y="350" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ky2ESYYpgZwdwtVAGNtp-14" value="为什么要可微" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="540" y="390" width="70" height="60" as="geometry" />
+          <mxGeometry x="-300" y="360" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5D-BXdIuWoVq8dWtuzxi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5D-BXdIuWoVq8dWtuzxi-2" target="5D-BXdIuWoVq8dWtuzxi-7">
           <mxGeometry relative="1" as="geometry" />
