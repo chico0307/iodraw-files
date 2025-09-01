@@ -71,16 +71,17 @@
         <mxCell id="cWPdfiEOQZHAY0Xvp6A5-12" value="小波去噪" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-241" y="455" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cWPdfiEOQZHAY0Xvp6A5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cWPdfiEOQZHAY0Xvp6A5-15" target="cWPdfiEOQZHAY0Xvp6A5-1">
+        <mxCell id="cWPdfiEOQZHAY0Xvp6A5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="cWPdfiEOQZHAY0Xvp6A5-15" target="cWPdfiEOQZHAY0Xvp6A5-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="-291" y="650" />
               <mxPoint x="-291" y="620" />
               <mxPoint x="-161" y="620" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="cWPdfiEOQZHAY0Xvp6A5-15" value="Torchvision&lt;div&gt;实现高斯模糊&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="-356" y="650" width="130" height="60" as="geometry" />
+          <mxGeometry x="-321" y="650" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cWPdfiEOQZHAY0Xvp6A5-17" value="高斯模糊" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-260" y="590" width="80" height="30" as="geometry" />
