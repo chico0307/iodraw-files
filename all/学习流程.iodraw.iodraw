@@ -7,7 +7,7 @@
         <mxCell id="Ky2ESYYpgZwdwtVAGNtp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ky2ESYYpgZwdwtVAGNtp-1" target="Ky2ESYYpgZwdwtVAGNtp-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ky2ESYYpgZwdwtVAGNtp-1" value="攻击生成" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
+        <mxCell id="Ky2ESYYpgZwdwtVAGNtp-1" value="攻击生成" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="300" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ky2ESYYpgZwdwtVAGNtp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ky2ESYYpgZwdwtVAGNtp-2" target="Ky2ESYYpgZwdwtVAGNtp-5" edge="1">
