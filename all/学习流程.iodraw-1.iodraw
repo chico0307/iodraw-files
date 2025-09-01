@@ -7,12 +7,12 @@
         <mxCell id="cWPdfiEOQZHAY0Xvp6A5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cWPdfiEOQZHAY0Xvp6A5-8" target="cWPdfiEOQZHAY0Xvp6A5-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="460" y="515" />
+              <mxPoint x="-61" y="535" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="cWPdfiEOQZHAY0Xvp6A5-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="350" width="190" height="240" as="geometry" />
+          <mxGeometry x="9" y="370" width="190" height="240" as="geometry" />
         </mxCell>
         <mxCell id="Ky2ESYYpgZwdwtVAGNtp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Ky2ESYYpgZwdwtVAGNtp-1" target="Ky2ESYYpgZwdwtVAGNtp-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -27,13 +27,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ky2ESYYpgZwdwtVAGNtp-11" value="&lt;span style=&quot;color: rgb(51, 153, 255);&quot;&gt;进行可微分的半色调，作为“净化”模块，把小的扰动先抹掉&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-189" y="380" width="160" height="60" as="geometry" />
+          <mxGeometry x="-710" y="400" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ky2ESYYpgZwdwtVAGNtp-12" value="普通的二值化操作不可微，不能用于训练。" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-199" y="490" width="180" height="80" as="geometry" />
+          <mxGeometry x="-720" y="510" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ky2ESYYpgZwdwtVAGNtp-14" value="为什么要可微" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="-179" y="440" width="70" height="60" as="geometry" />
+          <mxGeometry x="-700" y="460" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5D-BXdIuWoVq8dWtuzxi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5D-BXdIuWoVq8dWtuzxi-2" target="5D-BXdIuWoVq8dWtuzxi-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -41,39 +41,39 @@
         <mxCell id="cWPdfiEOQZHAY0Xvp6A5-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cWPdfiEOQZHAY0Xvp6A5-2" target="cWPdfiEOQZHAY0Xvp6A5-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="235" y="515" />
+              <mxPoint x="-286" y="535" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="cWPdfiEOQZHAY0Xvp6A5-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-19" y="350" width="190" height="240" as="geometry" />
+          <mxGeometry x="-540" y="370" width="190" height="240" as="geometry" />
         </mxCell>
         <mxCell id="cWPdfiEOQZHAY0Xvp6A5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5D-BXdIuWoVq8dWtuzxi-2" target="5D-BXdIuWoVq8dWtuzxi-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5D-BXdIuWoVq8dWtuzxi-2" value="生成Bayer&lt;div style=&quot;font-size: 18px;&quot;&gt;抖动矩阵&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="11" y="390" width="130" height="60" as="geometry" />
+          <mxGeometry x="-510" y="410" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5D-BXdIuWoVq8dWtuzxi-7" value="可微分半色调&lt;div&gt;处理&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="11" y="484.5" width="130" height="60" as="geometry" />
+          <mxGeometry x="-510" y="504.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5D-BXdIuWoVq8dWtuzxi-15" value="可微半色调" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="200" y="484.5" width="80" height="30" as="geometry" />
+          <mxGeometry x="-321" y="504.5" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cWPdfiEOQZHAY0Xvp6A5-1" value="引导图像" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="300" y="484.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="-221" y="504.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cWPdfiEOQZHAY0Xvp6A5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cWPdfiEOQZHAY0Xvp6A5-6" target="cWPdfiEOQZHAY0Xvp6A5-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cWPdfiEOQZHAY0Xvp6A5-6" value="分解为高低频" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="560" y="390" width="130" height="60" as="geometry" />
+          <mxGeometry x="39" y="410" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cWPdfiEOQZHAY0Xvp6A5-7" value="去噪重构" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="560" y="484.5" width="130" height="60" as="geometry" />
+          <mxGeometry x="39" y="504.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cWPdfiEOQZHAY0Xvp6A5-12" value="小波去噪" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="440" y="484.5" width="80" height="30" as="geometry" />
+          <mxGeometry x="-81" y="504.5" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
