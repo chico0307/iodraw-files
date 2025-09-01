@@ -38,13 +38,16 @@
         <mxCell id="cWPdfiEOQZHAY0Xvp6A5-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-20" y="350" width="190" height="240" as="geometry" />
         </mxCell>
+        <mxCell id="cWPdfiEOQZHAY0Xvp6A5-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5D-BXdIuWoVq8dWtuzxi-2" target="5D-BXdIuWoVq8dWtuzxi-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5D-BXdIuWoVq8dWtuzxi-2" value="生成Bayer&lt;div style=&quot;font-size: 18px;&quot;&gt;抖动矩阵&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="10" y="390" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5D-BXdIuWoVq8dWtuzxi-7" value="可微分半色调&lt;div&gt;处理&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="10" y="484.5" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5D-BXdIuWoVq8dWtuzxi-15" value="高斯模糊" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="5D-BXdIuWoVq8dWtuzxi-15" value="可微半色调" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="200" y="484.5" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cWPdfiEOQZHAY0Xvp6A5-1" value="引导图像" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
