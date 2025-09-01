@@ -69,7 +69,7 @@
           <mxGeometry x="-226" y="334.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cWPdfiEOQZHAY0Xvp6A5-12" value="小波去噪" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="630" y="830" width="80" height="30" as="geometry" />
+          <mxGeometry x="-241" y="450" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
