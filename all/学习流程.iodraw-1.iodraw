@@ -97,8 +97,8 @@
         <mxCell id="cWPdfiEOQZHAY0Xvp6A5-18" value="去掉高频，保留低频" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-140" y="650" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cWPdfiEOQZHAY0Xvp6A5-20" value="高斯模糊" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="600" width="80" height="30" as="geometry" />
+        <mxCell id="cWPdfiEOQZHAY0Xvp6A5-20" value="频域低通滤波" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="590" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
