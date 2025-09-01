@@ -23,7 +23,7 @@
           <mxGeometry x="-180" y="490" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ky2ESYYpgZwdwtVAGNtp-12" value="普通的二值化操作不可微，不能用于训练。" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-430" y="450" width="180" height="80" as="geometry" />
+          <mxGeometry x="-190" y="600" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ky2ESYYpgZwdwtVAGNtp-14" value="为什么要可微" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="-300" y="360" width="70" height="60" as="geometry" />
