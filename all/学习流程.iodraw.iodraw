@@ -37,13 +37,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5D-BXdIuWoVq8dWtuzxi-2" value="生成Bayer&lt;div style=&quot;font-size: 18px;&quot;&gt;抖动矩阵&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="80" y="385.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="70" y="385.5" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5D-BXdIuWoVq8dWtuzxi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5D-BXdIuWoVq8dWtuzxi-3" target="Ky2ESYYpgZwdwtVAGNtp-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5D-BXdIuWoVq8dWtuzxi-3" value="可微分半色调" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="80" y="480" width="120" height="60" as="geometry" />
+        <mxCell id="5D-BXdIuWoVq8dWtuzxi-3" value="可微分半色调" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="70" y="480" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
