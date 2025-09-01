@@ -52,6 +52,9 @@
         <mxCell id="5D-BXdIuWoVq8dWtuzxi-14" value="半色调处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="260" y="390" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="5D-BXdIuWoVq8dWtuzxi-15" value="半色调处理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="390" y="389.5" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
