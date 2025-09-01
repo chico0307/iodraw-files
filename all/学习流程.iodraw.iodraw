@@ -43,6 +43,9 @@
         <mxCell id="5D-BXdIuWoVq8dWtuzxi-7" value="可微分半色调&lt;div&gt;处理&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="10" y="484.5" width="130" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="5D-BXdIuWoVq8dWtuzxi-12" value="半色调图像" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="190" y="494.5" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
