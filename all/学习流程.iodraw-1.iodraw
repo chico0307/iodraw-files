@@ -98,7 +98,7 @@
           <mxGeometry x="-140" y="650" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cWPdfiEOQZHAY0Xvp6A5-20" value="频域低通滤波" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-161" y="590" width="71" height="30" as="geometry" />
+          <mxGeometry x="-161" y="590" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
