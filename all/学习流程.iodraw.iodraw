@@ -37,6 +37,9 @@
         <mxCell id="5D-BXdIuWoVq8dWtuzxi-2" value="生成Bayer&lt;div&gt;抖动矩阵&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="60" y="490" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="5D-BXdIuWoVq8dWtuzxi-3" value="可微分半色调" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="60" y="584.5" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
