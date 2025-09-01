@@ -94,7 +94,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cWPdfiEOQZHAY0Xvp6A5-18" value="”低通滤波“去掉高频，保留低频" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="cWPdfiEOQZHAY0Xvp6A5-18" value="去掉高频，保留低频" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-140" y="650" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
