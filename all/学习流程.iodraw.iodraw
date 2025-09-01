@@ -34,11 +34,16 @@
         <mxCell id="Ky2ESYYpgZwdwtVAGNtp-14" value="为什么要可微" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="540" y="390" width="70" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="5D-BXdIuWoVq8dWtuzxi-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5D-BXdIuWoVq8dWtuzxi-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="517.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="5D-BXdIuWoVq8dWtuzxi-2" value="生成Bayer&lt;div&gt;抖动矩阵&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="90" y="432.75" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5D-BXdIuWoVq8dWtuzxi-3" value="可微分半色调" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="90" y="527.25" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="524.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
