@@ -20,7 +20,7 @@
           <mxGeometry x="400" y="180" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HKOSGMMzcoD7oSTuJo9i-9" value="Perturbation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="330" y="260" width="60" height="30" as="geometry" />
+          <mxGeometry x="390" y="90" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
