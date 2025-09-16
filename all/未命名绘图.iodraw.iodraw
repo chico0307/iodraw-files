@@ -1,201 +1,35 @@
-<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="24.7.17">
-  <diagram name="第 1 页" id="RHqyNZsNSSLBjiJR9j9n">
-    <mxGraphModel dx="1572" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 SLBrowser/9.0.6.2081 SLBChan/11 SLBVPV/64-bit" version="24.7.17">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1323" dy="717" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="GK14P3OMHZKIVjl8gla9-85" value="用户交互处理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1225" y="1318" width="885" height="314" as="geometry" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="ceC4c3nkXdXdw70SwX4r-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="215" width="944" height="638" as="geometry" />
         </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-86" value="界面构建" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1024" y="955" width="675" height="314" as="geometry" />
+        <mxCell id="ceC4c3nkXdXdw70SwX4r-20" value="行人检测系统" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="406.5" y="234" width="251" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-87" value="摄像头数据管理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="867" y="591" width="507" height="314" as="geometry" />
+        <mxCell id="ceC4c3nkXdXdw70SwX4r-22" value="上传图片" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="97" y="314" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-88" value="初始化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="810" y="210" width="313" height="331" as="geometry" />
+        <mxCell id="ceC4c3nkXdXdw70SwX4r-23" value="上传视频" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="97" y="409" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-89" value="CameraSelectDialog&#xa;摄像头选择对话框" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1158" y="235" width="249" height="66" as="geometry" />
+        <mxCell id="ceC4c3nkXdXdw70SwX4r-24" value="打开/关闭摄像头" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="97" y="504" width="140" height="107" as="geometry" />
         </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-90" value="资源管理器&#xa;(ResourceManager)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1158" y="450" width="253" height="66" as="geometry" />
+        <mxCell id="ceC4c3nkXdXdw70SwX4r-25" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="97" y="646" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-91" value="UI组件系统&#xa;(Qt Widgets)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1501" y="831" width="243" height="49" as="geometry" />
+        <mxCell id="ceC4c3nkXdXdw70SwX4r-26" value="暂停" style="rounded=1;whiteSpace=wrap;html=1;fontSize=23;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="97" y="741" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-92" value="创建对话框(初始化)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="867" y="244" width="200" height="49" as="geometry" />
+        <mxCell id="ceC4c3nkXdXdw70SwX4r-27" value="检测画面" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=36;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="354" y="322" width="572" height="349" as="geometry" />
         </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-93" value="设置窗口属性" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="889" y="351" width="156" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-94" value="应用界面样式(StyleSheet)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="845" y="459" width="243" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-95" value="加载摄像头列表&#xa;(load_cameras)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1002" y="616" width="248" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-96" value="摄像头状态检查" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="732" width="172" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-97" value="列表项创建与格式化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1024" y="831" width="204" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-98" value="创建控件&#xa;(标签/列表/按钮)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1087" y="980" width="257" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-99" value="布局管理&#xa;(QVBoxLayout)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1175" y="1096" width="244" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-100" value="按钮状态管理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1297" y="1195" width="156" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-101" value="摄像头选择事件&#xa;(on_camera_selected)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1615" y="1541" width="256" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-102" value="确认按钮事件&#xa;(accept)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="1343" width="230" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-103" value="取消按钮事件&#xa;(reject)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1541" y="1343" width="226" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-104" value="关闭窗口事件&#xa;(closeEvent)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1817" y="1343" width="259" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-105" value="选中摄像头&#xa;selected_camera_id" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1482" y="1682" width="208" height="98" as="geometry" />
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-106" value="用户" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2145" y="1442" width="92" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-107" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="GK14P3OMHZKIVjl8gla9-92" target="GK14P3OMHZKIVjl8gla9-93">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-108" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="GK14P3OMHZKIVjl8gla9-93" target="GK14P3OMHZKIVjl8gla9-94">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-109" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.13;entryY=0;rounded=0;" edge="1" parent="1" source="GK14P3OMHZKIVjl8gla9-94" target="GK14P3OMHZKIVjl8gla9-95">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="967" y="591" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-110" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.86;entryY=0;rounded=0;" edge="1" parent="1" source="GK14P3OMHZKIVjl8gla9-90" target="GK14P3OMHZKIVjl8gla9-95">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1285" y="591" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-111" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="GK14P3OMHZKIVjl8gla9-95" target="GK14P3OMHZKIVjl8gla9-96">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-112" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="GK14P3OMHZKIVjl8gla9-96" target="GK14P3OMHZKIVjl8gla9-97">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-113" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.3;entryY=0;rounded=0;" edge="1" parent="1" source="GK14P3OMHZKIVjl8gla9-97" target="GK14P3OMHZKIVjl8gla9-98">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1126" y="955" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-114" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.33;entryY=0;rounded=0;" edge="1" parent="1" source="GK14P3OMHZKIVjl8gla9-98" target="GK14P3OMHZKIVjl8gla9-99">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1215" y="1071" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-115" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.25;entryY=-0.01;rounded=0;" edge="1" parent="1" source="GK14P3OMHZKIVjl8gla9-99" target="GK14P3OMHZKIVjl8gla9-100">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1297" y="1170" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-116" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="GK14P3OMHZKIVjl8gla9-100" target="GK14P3OMHZKIVjl8gla9-102">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-117" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.16;exitY=1;entryX=1;entryY=0.02;rounded=0;" edge="1" parent="1" source="GK14P3OMHZKIVjl8gla9-91" target="GK14P3OMHZKIVjl8gla9-98">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1453" y="905" />
-              <mxPoint x="1453" y="955" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-118" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.34;exitY=1;entryX=1;entryY=0;rounded=0;" edge="1" parent="1" source="GK14P3OMHZKIVjl8gla9-91" target="GK14P3OMHZKIVjl8gla9-99">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1544" y="905" />
-              <mxPoint x="1544" y="1071" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-119" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.52;exitY=1;entryX=1;entryY=0.19;rounded=0;" edge="1" parent="1" source="GK14P3OMHZKIVjl8gla9-91" target="GK14P3OMHZKIVjl8gla9-100">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1633" y="905" />
-              <mxPoint x="1633" y="1170" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-120" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.01;exitY=0.6;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="GK14P3OMHZKIVjl8gla9-106" target="GK14P3OMHZKIVjl8gla9-101">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1743" y="1516" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-121" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0;rounded=0;" edge="1" parent="1" source="GK14P3OMHZKIVjl8gla9-101" target="GK14P3OMHZKIVjl8gla9-105">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1743" y="1657" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-122" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.24;exitY=0;entryX=0.78;entryY=1;rounded=0;" edge="1" parent="1" source="GK14P3OMHZKIVjl8gla9-105" target="GK14P3OMHZKIVjl8gla9-102">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1505" y="1657" />
-              <mxPoint x="1505" y="1417" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-123" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.36;exitY=1;entryX=0.01;entryY=0.45;rounded=0;" edge="1" parent="1" source="GK14P3OMHZKIVjl8gla9-102" target="GK14P3OMHZKIVjl8gla9-106">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1310" y="1417" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-124" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.01;entryY=0.41;rounded=0;" edge="1" parent="1" source="GK14P3OMHZKIVjl8gla9-103" target="GK14P3OMHZKIVjl8gla9-106">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1654" y="1417" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GK14P3OMHZKIVjl8gla9-125" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.01;entryY=0.31;rounded=0;" edge="1" parent="1" source="GK14P3OMHZKIVjl8gla9-104" target="GK14P3OMHZKIVjl8gla9-106">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1946" y="1417" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="ceC4c3nkXdXdw70SwX4r-28" value="统计人数" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="354" y="702" width="572" height="97" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
