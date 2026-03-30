@@ -16,7 +16,7 @@
         <mxCell id="GRVJXDt41oaqsg_pmvgg-6" value="全局平均复杂度" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="360" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_UM51rMYOzam_4S6goMK-1" value="全局平均复杂度" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="_UM51rMYOzam_4S6goMK-1" value="用Sobel计算每个图片的梯度" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="410" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
