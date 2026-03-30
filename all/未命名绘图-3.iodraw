@@ -16,9 +16,6 @@
         <mxCell id="GRVJXDt41oaqsg_pmvgg-6" value="全局平均复杂度" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="140" y="360" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GRVJXDt41oaqsg_pmvgg-7" value="全局平均复杂度" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="370" width="120" height="30" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
